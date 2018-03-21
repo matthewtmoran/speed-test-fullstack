@@ -1,0 +1,1 @@
+export { default as speedtests } from "./speedtests";

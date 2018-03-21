@@ -1,0 +1,6 @@
+export {default as Home }from './Home'
+export {default as SpeedTestsContainer }from './SpeedTestsContainer'
+export {default as SpeedTests }from './SpeedTests'
+export {default as Signup }from './Signup'
+export {default as Dashboard }from './Dashboard'
+export {default as Login }from './Login'

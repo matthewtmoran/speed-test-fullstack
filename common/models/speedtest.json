@@ -1,0 +1,32 @@
+{
+  "name": "speedtest",
+  "plural": "speedtests",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "clientId": {
+      "type": "string"
+    },
+    "ipAddresses": {
+      "type": [
+        "string"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "lastTest": {
+      "type": "date"
+    },
+    "results": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
